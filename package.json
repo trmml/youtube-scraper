@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  },
+  "name": "youtube-scraper",
+  "version": "1.0.0",
+  "description": "a youtube scraper for searching",
+  "main": "index.js",
+  "repository": "https://github.com/trmml/youtube-scraper",
+  "author": "Josh Trommel",
+  "license": "MIT"
+}
