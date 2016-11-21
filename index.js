@@ -3,6 +3,7 @@ var express = require('express')
 	, cheerio = require('cheerio');
 
 var app = express();
+var port = process.env.PORT || 8080;
 
 function buildURL(query) {
 	return "https://www.youtube.com/results?search_query=" + encodeURI(query)
@@ -27,6 +28,6 @@ app.get('/search', function(req, res) {
 	});
 });
 
-app.listen(3000, function() {
-	console.log('running on localhost:3000');
+app.listen(port, function() {
+	console.log('running on localhost:' + port);
 });
