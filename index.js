@@ -24,7 +24,7 @@ app.get('/search', function(req, res) {
 		var videoURL = $('h3.yt-lockup-title a').attr('href');
 
 		videoURL = "https://youtube.com" + videoURL;
-		res.send({url: videoUR}L)
+		res.send({url: videoURL})
 	});
 });
 
